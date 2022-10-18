@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Roboto";
+}
+
+.main-div {
+  height: 100vh;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 35px;
+}
+
+img[alt="logo"] {
+  margin-left: 80px;
+  width: 120px;
+  cursor: pointer;
+}
+
+.nav-items {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-item {
+  color: #3e4794;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.signin-btn {
+  margin-right: 80px;
+  background: linear-gradient(to right, #965cf2, #ff8adc);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 20px;
+  transition: transform 300ms ease;
+}
+
+.signin-btn:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.intro-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-section {
+  padding-left: 80px;
+  width: 30%;
+}
+
+.left-section h1 {
+  font-size: 60px;
+  color: #3e4794;
+}
+
+.left-section h4 {
+  margin-top: 30px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #3e4794;
+  line-height: 1.5;
+}
+
+.learn-more-btn {
+  margin-top: 40px;
+  background: linear-gradient(to right, #965cf2, #ff8adc);
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  transition: transform 300ms ease;
+}
+
+.learn-more-btn:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.imgs-div {
+  padding-right: 80px;
+}
+
+img[alt="intro-img"] {
+  width: 550px;
+  position: relative;
+  top: 25px;
+}
+
+.vector-img {
+  width: 80px;
+  position: relative;
+  left: 70px;
+  bottom: 70px;
+}
+
+.vector-dot {
+  width: 15px;
+  position: relative;
+  left: 30px;
+  bottom: 140px;
+}
+
+.cover {
+  height: 95vh;
+  width: 47vw;
+  background: linear-gradient(
+    to right top,
+    rgba(149, 92, 242, 0.7),
+    rgba(255, 138, 220, 0.5)
+  );
+  clip-path: polygon(100% 0, 100% 88%, 50% 100%, 30% 100%, 0 0);
+  border-bottom-left-radius: 60%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
